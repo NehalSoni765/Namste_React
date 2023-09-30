@@ -1,0 +1,23 @@
+module1
+{   CDN : Content delivery Network{
+        cdn is that where react library has been hosted
+        fetching react and puting into our code
+    } 
+    in index.html{
+        1. core react = Functionality for developmemt
+        2. DOM DOCUMENT OBJECT MODEL 
+        why use two diff liberary bcz react have react 3d,eract dom,react native for different pupose separte it
+    }
+    react is liberary which i work on smale portion on of page, rest page should be same
+}
+module2{
+    bundler{
+        vite,webpack,parser 
+        why we need to use bundler : in proudction server we nedd to bundle of js,css
+    }
+    dev dependancy vs dependancy{
+        npm i -D parcel = dev dependancy
+        devDependancy = to develop react app
+        dependancy = which also work on production server
+    }
+}
