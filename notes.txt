@@ -20,4 +20,20 @@ module2{
         devDependancy = to develop react app
         dependancy = which also work on production server
     }
+    package vs package-lock{
+        package.json that have caret and tlide
+        package-lock.json : always tract to the exact version which define in package.json
+        node_modules: contains dB of configure dependancy
+        ^ caret = minor dependancy
+        ~ tlide = major dependancy
+        transitive dependancy = {
+            a parcel dependancy having own dependancy that own having some dependancy is called transitive dependancy
+        }
+    }
+    npx{
+        npx parcel index.html(source code)
+        parcel goes to index.html which build developmemt a build and host it on localhost
+        npx parcel build index.html
+    }
+    
 }
