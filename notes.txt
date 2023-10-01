@@ -55,4 +55,22 @@ module4{
 module5{
     >why react : it makes developer lifes easy to making less code for more web pages which is major job react ui 
     provides large production scalable performance ready ui,optimise UI
+    > HOOK is normal JAVASCRIPT function
+    >> wherever state variable update readct re render the component
+    react{
+        > react fast due to fast dom manipulation (react has efficient dom manipulation)
+        RECONCILIATION Algoritham (REACT FIBER : after version 16 it called as react fiber)
+        {
+            7 restaurant => 3 restaurant
+            VIRTUAL DOM is representation of actual dom (basically object or javascript representation)
+            ACTUAL DOM =<div><div></div></div>
+
+            find out two html code different hard rather than object. (object compare is easy)
+            react don't touch the html code 
+
+            > basically virtual dom is nothing but a an object after clickng it goes 7 to 3 due some differnce between object it update the UI state.
+            > react can efficiently find out  difference between virtual box and update UI
+            > why fast : have virtual dom, dom manipulation, diff algoritham
+        }
+    }
 }
