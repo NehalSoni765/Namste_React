@@ -34,6 +34,25 @@ module2{
         npx parcel index.html(source code)
         parcel goes to index.html which build developmemt a build and host it on localhost
         npx parcel build index.html
+        configure this syntax into package.json file
     }
     
+}
+module3{
+    JSX : with jsx developer life going to easy to do cool things also knows JAVASCRIPT SYNTAX
+    react and jsx different things
+    jsx is convension of merge js+html
+    JSX is not HTML in JS but it XML-like HTML
+    our code transpiled before reaches into js engine
+    > functional component is simple js functional which return jsx element
+    >component composotion is nothing but a component having another component
+}
+module4{
+    >passing props to component same as passing argument to function
+    >config tribute ui means all the UI driven by config
+    >id not defined to restaurant card when changes in card it doesn't know where to changes so its clear container and add all things again 
+}
+module5{
+    >why react : it makes developer lifes easy to making less code for more web pages which is major job react ui 
+    provides large production scalable performance ready ui,optimise UI
 }
