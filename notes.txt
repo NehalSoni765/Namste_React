@@ -74,3 +74,23 @@ module5{
         }
     }
 }
+module6{
+    monolith/micro services architecture{
+        -backend,ui,auth,db,sms sending,email notification services
+        -all services combine into app SEPRATION OF CONCERNS or SINGLE RESPONSIBILE PRINCIPLE
+        -this services are written on there languages and used different port and mapped into 
+    }
+    fetch api {
+        1. load page->api fetch response->render
+        2. load page->render->api fetch response->re-render (better approach)
+    }
+    useEffect {
+        initial render => useEffect called after rendering component
+    }
+    cross origin => our browser block api from one origin to another origin (mismatch origin)
+    conditional rendering : It render based on conditional based
+    whenever state variable updates react trigger reconciliation cycle (re-render the component) 
+}
+module7{
+    
+}
