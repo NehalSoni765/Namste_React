@@ -1,8 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { LOGO_URL } from "../utils/constants";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [loginButton,setLoginButton] = useState("Logout");
+  //iusing link component it would not render the page
+
+  //If no dependancy array => useEffect call on every render component
+  useEffect(()=>{
+
+  },[])
+
   return (
     <div className="header">
       <div className="logo-container">
@@ -13,9 +21,9 @@ const Header = () => {
       </div>
       <div className="nav-items">
         <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Contact us</li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About us</Link></li>
+          <li><Link to="contact">Contact us</Link></li>
           <li>Cart</li>
           <button className="login" onClick={()=>loginButton=="Login"?setLoginButton("Logout"):setLoginButton("Login")}>{loginButton}</button>
         </ul>

@@ -92,5 +92,13 @@ module6{
     whenever state variable updates react trigger reconciliation cycle (re-render the component) 
 }
 module7{
-    
+    useeffect{
+        > If no dependancy array => useEffect call on every render component
+        > If empty dependancy array => useEffect called on initial render(just render after component)
+        > If dependancy array have some varible => useEffect call every time dependancy updated
+        >> react is single page applicationn because it not reload the site
+        
+        - Client side Routing (you redirect anither page just coponent changes)
+        - Server side Routing (you made a call and about us page comes with data)
+    }
 }
