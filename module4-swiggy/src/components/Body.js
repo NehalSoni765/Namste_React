@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import RestaurantCard from "./RestaurantCard";
 import { SWIGGY_URL } from "../utils/constants";
 import Shimmer from "./Shimmer";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   //state variable  = super powerful variable
@@ -36,6 +37,16 @@ const Body = () => {
       }
     });
   };
+
+  const isOnlineStatus = useOnlineStatus();
+  console.log("isOnlineStatus ", isOnlineStatus);
+  if (!isOnlineStatus)
+    return (
+      <h1>
+        Look's like you'r offline !! PLease check your internet connection.
+      </h1>
+    );
+
   console.log("body render");
   return !listOfRestaurant.length ? (
     <Shimmer />

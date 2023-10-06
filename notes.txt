@@ -102,3 +102,56 @@ module7{
         - Server side Routing (you made a call and about us page comes with data)
     }
 }
+module8{
+    function vs class{
+        > function component end of js function 
+        > class component end of js class {
+            - it inherit from react component
+            - it has render method which return jsx
+        }
+        calling a functions means mounting component
+        > loading a class bassed component means creating instance of class.
+        lifecycle{
+            > render means mount
+            In aboutUs: Component did mount{
+                > reanct render the step by step mounting when time to load class component 
+                    first a constructor the render called
+                    - Parent constructor
+                    - Parent render
+                    - Child constructor
+                    - Child render
+                > why use: to make an api call
+                > empty array dependancy of use effect
+            }
+            > update dom manipulation is very expensive that why it 
+            > react fast because it has two faces render(constructor,render,update dom) and commit(componentDidMount)
+            look on userclass component
+            {
+                react mounting lifecycle {
+                    * ----mounting -----
+                    * constructor(dummy)
+                    * render(dummy)
+                    * componentDidMount() (API call exceed)
+                    *  this.setState(State Variable)
+                    * ------- updating
+                    *  this.setState(Update State Variable)
+                    *  render component (DOM manipulation new data)
+                    *  componentDidUpdate()
+                }
+                react unmounting lifecycle{
+                    - it calls when we go from about us to contact us 
+                    - why they use array in useeffect because earlier class component have to check multiple conditions on same function of componentDidUpdate
+                }
+            }
+        }
+    }
+}
+module9{
+    > modularity = breakdown code into small small modules/component for reusable,maintainable,test
+    > chunkling,code splitting,dynamic bundling,lazy loading,on demand loading are are ones why{
+        in large scale web application we can not load based on one file we seprate flight js,hotel js,vus js extc 
+    }
+    using lazy loading - component render index.js and when click on grocery on header=>{
+        grocery fetch data from code so in mid time cause an error to solve this react provide suspense function during mid time show your component
+    }
+}
