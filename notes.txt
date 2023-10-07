@@ -155,3 +155,8 @@ module9{
         grocery fetch data from code so in mid time cause an error to solve this react provide suspense function during mid time show your component
     }
 }
+module10{
+    > sass vs css sass has power to write a css
+    >postcss means it convert css with javascript
+    >init is initiallize the component
+}

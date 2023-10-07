@@ -52,18 +52,19 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="filter">
-        <div className="search">
+      <div className="filter flex">
+        <div className="search m-4 p-4">
           <input
             type="text"
             name="search"
-            className="search-box"
+            className="search-box  border border-gray-600 mr-4"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value.trim());
             }}
           />
           <button
+            className="px-3 py-1 bg-blue-400 rounded-md"
             type="submit"
             onClick={() => {
               //filter restautrant cards and update the UI
@@ -75,24 +76,26 @@ const Body = () => {
               setFilteredRestaurant(filteredRestaurant);
             }}
           >
-            search
+            Search
           </button>
         </div>
-        <button
-          className="filter-btn"
-          onClick={() => {
-            console.log("button clicked");
-            setListOfRestaurants((listOfRestaurant) =>
-              listOfRestaurant.filter(
-                (restaurant) => restaurant.data.avgRating > 4
-              )
-            );
-          }}
-        >
-          Top Rated Restaurant
-        </button>
+        <div className="m-4 p-4 flex items-center">
+          <button
+            className="filter-btn bg-gray-200 px-2 py-1 rounded-md"
+            onClick={() => {
+              console.log("button clicked");
+              setListOfRestaurants((listOfRestaurant) =>
+                listOfRestaurant.filter(
+                  (restaurant) => restaurant.data.avgRating > 4
+                )
+              );
+            }}
+          >
+            Top Rated Restaurant
+          </button>
+        </div>
       </div>
-      <div className="res-container">
+      <div className="res-container flex flex-wrap">
         {filteredRestaurant.length > 0 &&
           filteredRestaurant.map((restaurant) => {
             return (
