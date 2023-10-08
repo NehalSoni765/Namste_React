@@ -24,4 +24,19 @@ const RestaurantCard = ({ resData }) => {
     </div>
   );
 };
+
+//Higher order component : it takes component and output is component with adding top bottom feature
+export const withPromotedLabel = (RestaurantCard) => {
+  return (props) => {
+    return (
+      <>
+        <label className="absolute bg-black text-white m-2 p-2 rounded-md">
+          Prmoted
+        </label>
+        <RestaurantCard {...props} />
+      </>
+    );
+  };
+};
+
 export default RestaurantCard;

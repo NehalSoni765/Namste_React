@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
+import RestaurantCategory from "./RestaurantCategory";
 
 const RestaurantMenu = () => {
   // const [responseData, setResponseData] = useState(null);
   const { restId } = useParams();
+  const [showIndex, setShowIndex] = useState(0);
 
   // useEffect(() => {
   //   fetchMenu();
@@ -18,27 +20,36 @@ const RestaurantMenu = () => {
   // };
   const responseData = useRestaurantMenu(restId);
 
+  const dummyData = "Dummy Data";
+
   if (responseData === null) return <Shimmer />;
   const { name, cuisines, costForTwoMessage } =
     responseData && responseData?.cards?.[0]?.card?.card?.info;
-  const { itemCards } =
-    responseData.cards[2].groupedCard.cardGroupMap?.REGULAR?.cards[2].card.card;
+
+  const categories =
+    responseData?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+      (card) =>
+        card.card.card["@type"] ===
+        "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+    );
 
   return (
-    <div className="menu">
-      <h1>{name}</h1>
-      <p>{cuisines.join(", ")}</p>
+    <div className="text-center">
+      <h1 className="font-bold my-10 text-lg">{name}</h1>
+      <p className="font-bold">{cuisines.join(", ")}</p>
       <h3>{costForTwoMessage}</h3>
-      <ul>
-        {itemCards.map((itemCard) => {
-          return (
-            <li key={itemCard.card.info.uuid}>
-              {itemCard.card.info.name}- Rs.{" "}
-              {itemCard.card.info.price / 100 || itemCard.card.info}
-            </li>
-          );
-        })}
-      </ul>
+      {categories?.map((category, index) => (
+        <RestaurantCategory
+          data={category?.card?.card}
+          key={category?.card?.card.title}
+          showItems={index === showIndex ? true : false} //control component
+          //calback
+          setShowIndex={() =>
+            index === showIndex ? setShowIndex(null) : setShowIndex(index)
+          }
+          dummyData={dummyData}
+        />
+      ))}
     </div>
   );
 };

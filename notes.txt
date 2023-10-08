@@ -160,3 +160,13 @@ module10{
     >postcss means it convert css with javascript
     >init is initiallize the component
 }
+module11{
+    > Higher order component is component which takes the component and return the component
+    > parent component control child(erstaturantmenu) is called control component
+    > lifting state up
+    > props drilling (pass props from top to subchild) to solve use contextAPI{
+        > create context in util>usercontext
+        > get usercontext in about us,header
+        > set usercontext(provide context) app.js
+    }
+}

@@ -1,15 +1,18 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import { SWIGGY_URL } from "../utils/constants";
 import Shimmer from "./Shimmer";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
   //state variable  = super powerful variable
   const [listOfRestaurant, setListOfRestaurants] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
 
   //   //destructuring
   //   const arr = useState(resList);
@@ -39,7 +42,7 @@ const Body = () => {
   };
 
   const isOnlineStatus = useOnlineStatus();
-  console.log("isOnlineStatus ", isOnlineStatus);
+
   if (!isOnlineStatus)
     return (
       <h1>
@@ -47,7 +50,10 @@ const Body = () => {
       </h1>
     );
 
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
   console.log("body render");
+
+
   return !listOfRestaurant.length ? (
     <Shimmer />
   ) : (
@@ -94,8 +100,18 @@ const Body = () => {
             Top Rated Restaurant
           </button>
         </div>
+        <div className="m-4 p-4 flex items-center">
+          <label>User Name: </label>
+          <input
+            type="text"
+            name="search"
+            className="search-box  border border-gray-600 mr-4 pl-2"
+            onChange={(e) => setUserName(e.target.value)}
+            value={loggedInUser}
+          />
+        </div>
       </div>
-      <div className="res-container flex flex-wrap">
+      <div className="res-container flex flex-wrap m-10">
         {filteredRestaurant.length > 0 &&
           filteredRestaurant.map((restaurant) => {
             return (
@@ -103,7 +119,14 @@ const Body = () => {
                 key={restaurant.info.id}
                 to={`restaurants/${restaurant.info.id}`}
               >
-                <RestaurantCard resData={restaurant} key={restaurant.info.id} />
+                {!restaurant?.info?.promoted ? (
+                  <RestaurantCardPromoted resData={restaurant} />
+                ) : (
+                  <RestaurantCard
+                    resData={restaurant}
+                    key={restaurant.info.id}
+                  />
+                )}
               </Link>
             );
           })}

@@ -1,15 +1,29 @@
-const Shimmer = ()=>{
-    return (
-        <div className="shimmer-container">
-            <div className="shimmer-card">Cards</div>
-            <div className="shimmer-card">Cards</div>
-            <div className="shimmer-card">Cards</div>
-            <div className="shimmer-card">Cards</div>
-            <div className="shimmer-card">Cards</div>
-            <div className="shimmer-card">Cards</div>
-            <div className="shimmer-card">Cards</div>
-        </div>
-    )
-}
+const Shimmer = () => {
+  return (
+    <div className="flex flex-wrap m-10">
+      <div className="res-card m-3 p-3 bg-transparent w-60 min-h-[20rem] rounded-sm shadow-md text-center bg-gray-300">
+        Cards
+      </div>
+      <div className="res-card m-3 p-3 bg-transparent w-60 min-h-[20rem] rounded-sm shadow-md text-center bg-gray-300">
+        Cards
+      </div>
+      <div className="res-card m-3 p-3 bg-transparent w-60 min-h-[20rem] rounded-sm shadow-md text-center bg-gray-300">
+        Cards
+      </div>
+      <div className="res-card m-3 p-3 bg-transparent w-60 min-h-[20rem] rounded-sm shadow-md text-center bg-gray-300">
+        Cards
+      </div>
+      <div className="res-card m-3 p-3 bg-transparent w-60 min-h-[20rem] rounded-sm shadow-md text-center bg-gray-300">
+        Cards
+      </div>
+      <div className="res-card m-3 p-3 bg-transparent w-60 min-h-[20rem] rounded-sm shadow-md text-center bg-gray-300">
+        Cards
+      </div>
+      <div className="res-card m-3 p-3 bg-transparent w-60 min-h-[20rem] rounded-sm shadow-md text-center bg-gray-300">
+        Cards
+      </div>
+    </div>
+  );
+};
 
-export default Shimmer
+export default Shimmer;
