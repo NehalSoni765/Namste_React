@@ -169,4 +169,34 @@ module11{
         > get usercontext in about us,header
         > set usercontext(provide context) app.js
     }
+    differnce between context and redux {
+        > context can be provide by react 
+        > redux we have to store external liberary
+        > redux can be used for large scale application 
+    }
+}
+module12{
+    > zustland -state management (new tool)
+    > redux{
+        - state management and offer to easy debug
+        - redux offer two library is react-redux redux-toolkit
+        >> redux toolkit is standard way to write redux logic
+        >> redux toolkit {
+            - is object which store a different slices like userInfo,cardInfo
+            - we can not modify direct to redux slice
+            >> click on add button -> it dispatch action -> (that action call reducer function) which calls a reducer (function) -> which internally modify the cart slice  
+            - read data from slice to cart header
+            >> use selector which gives redux slice (this cart component subscribe the store [subscribing store - selector] )
+        }
+        //more eficieint
+        const cartItems = useSelector((store) => store.cart.items);
+        
+        //less eficieint bcs it update all store instead of one
+        const store = useSelector((store) => store);
+        const cartItems = store.cart.items;
+
+        in vanila version => don't mutate the state
+        redux toolkit => we have to mutate the state (but in depth it still mutate state => redux toolkit uses immer(take state=>create state=>return latest state))  
+
+    }
 }
