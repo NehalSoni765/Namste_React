@@ -1,7 +1,5 @@
 import React from "react";
-// import ItemList from "./itemList";
-import { CDN_IMAGE_URL } from "../utils/constants";
-import ItemList from "./itemList";
+import MenuList from "./MenuList";
 
 const RestaurantCategory = ({ data, showItems, setShowIndex, dummyData }) => {
   const handleClick = () => {
@@ -19,9 +17,7 @@ const RestaurantCategory = ({ data, showItems, setShowIndex, dummyData }) => {
         <span>{showItems ? "\u{1F53A}" : "\u{1F53B}"}</span>
       </div>
       {/* accordian body */}
-      {showItems && data?.itemCards && (
-        <ItemList itemCards={data?.itemCards} dummyData={dummyData} />
-      )}
+      {showItems && data?.itemCards && <MenuList itemCards={data?.itemCards} />}
       {/* {showItems && data?.itemCards && (
         <div>
           {data?.itemCards.length > 0 &&

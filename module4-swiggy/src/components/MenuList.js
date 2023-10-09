@@ -1,10 +1,19 @@
+import { useDispatch } from "react-redux";
 import { CDN_IMAGE_URL } from "../utils/constants";
+import { addItem } from "../redux/cartSlice";
 
-const ItemList = ({ itemCards, dummyData }) => {
+const MenuList = ({ itemCards }) => {
+  const dispatch = useDispatch();
+
+  const handleAddItem = (item) => {
+    dispatch(addItem(item));
+    console.log("item ", item);
+  };
+
   return (
     <div>
-      {itemCards.length > 0 &&
-        itemCards.map((item) => {
+      {itemCards?.length > 0 &&
+        itemCards?.map((item) => {
           const { id, name, price, defaultPrice, description, imageId } =
             item?.card?.info;
 
@@ -22,7 +31,12 @@ const ItemList = ({ itemCards, dummyData }) => {
               </div>
               <div className="w-36">
                 <div className="absolute ">
-                  <button className="p-2 ml-8 mr-8 rounded-md bg-black text-white shadow-lg m-auto">
+                  <button
+                    className="p-2 ml-8 mr-8 rounded-md bg-black text-white shadow-lg m-auto"
+                    onClick={() => handleAddItem(item)} //callback function
+                    // onClick={handleAddItem} //it trigger
+                    // onClick={handleAddItem(item)} //every render time called
+                  >
                     ADD +
                   </button>
                 </div>
@@ -38,4 +52,4 @@ const ItemList = ({ itemCards, dummyData }) => {
   );
 };
 
-export default ItemList;
+export default MenuList;
