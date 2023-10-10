@@ -6,9 +6,9 @@ module1
     in index.html{
         1. core react = Functionality for developmemt
         2. DOM DOCUMENT OBJECT MODEL 
-        why use two diff liberary bcz react have react 3d,eract dom,react native for different pupose separte it
+        why use two diff library bcz react have react 3d,eract dom,react native for different pupose separte it
     }
-    react is liberary which i work on smale portion on of page, rest page should be same
+    react is library which i work on smale portion on of page, rest page should be same
 }
 module2{
     bundler{
@@ -171,7 +171,7 @@ module11{
     }
     differnce between context and redux {
         > context can be provide by react 
-        > redux we have to store external liberary
+        > redux we have to store external library
         > redux can be used for large scale application 
     }
 }
@@ -198,5 +198,50 @@ module12{
         in vanila version => don't mutate the state
         redux toolkit => we have to mutate the state (but in depth it still mutate state => redux toolkit uses immer(take state=>create state=>return latest state))  
 
+    }
+}
+module13 : Testing{
+    [npm i -D @testing-library/react]
+    - Unit Testing {
+        - Testing component in isolation app (looking for particular section or componetn)
+    }
+    - Integrating Testing{
+        - multiple component interact to other component (component talking to each other and develop the flow like (swiggy search))
+    }
+    - End to End Testing - e2e testing (user flow throughout the application)
+    -JEST{
+        - javascript testing framwork (jest site)
+        >> when working with babel need to additional add library [npm install --save-dev babel-jest @babel/core @babel/preset-env]
+        - why we add babel config {
+            - adding config file conflict between parcel(Parcel includes transpilation by default) and babel unsure to choose so that we diable current parcel system
+            >> actual happens that parcel disbale own transpilation and to use external babel we configure it.
+        }
+    }
+    process{
+        - install testing react library
+        - install jest,babel dependancy from jest site
+        - configure babel configure file
+        - configure parcelrc for disable javascript
+        - jest configure {
+            - npx jest --init{
+                no
+                2 jsdom (jsdom is like to dom but not dom)(component run into jsdom)
+                yes
+                babel
+                yes
+            }
+        }
+        - install jsdom : npx i --save-dev jest-environment-jsdom.{> __ means dunder}
+        - install @babel/preset-babel : to make JSX work in test cases.
+        - include @babel/preset-babel inside babel config file.
+        - include @testing-library/jest-dom .
+    }
+    foundation {
+        - description{
+            - render
+            - querying
+            - assertion
+            > you may use test/it 
+        }
     }
 }
