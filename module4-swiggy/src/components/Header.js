@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { LOGO_URL } from "../utils/constants";
 import { Link } from "react-router-dom";
@@ -45,6 +45,7 @@ const Header = () => {
           </li>
           <button
             className="login"
+            name="login"
             onClick={() =>
               loginButton == "Login"
                 ? setLoginButton("Logout")

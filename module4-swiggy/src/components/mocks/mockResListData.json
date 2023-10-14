@@ -1,0 +1,891 @@
+
+[
+    {
+        "info": {
+            "id": "362852",
+            "name": "Craving O Clock",
+            "cloudinaryImageId": "fead0e8d60d85a0804b1134889c3c482",
+            "locality": "2nd Stage",
+            "areaName": "Btm Layout",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "American",
+                "Beverages",
+                "Continental",
+                "Healthy Food",
+                "Snacks",
+                "North Indian",
+                "Mexican",
+                "Salads"
+            ],
+            "avgRating": 4.3,
+            "feeDetails": {
+                "restaurantId": "362852",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 4100
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 4100
+            },
+            "parentId": "65598",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 34,
+                "lastMileTravel": 4.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "34 mins",
+                "lastMileTravelString": "4.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-10-11 07:59:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b749484c-1018-41cb-bd79-6777c9d65cc8"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/craving-o-clock-2nd-stage-btm-layout-bangalore-362852",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "176212",
+            "name": "Temperature",
+            "cloudinaryImageId": "pumkvlptxkneyfdtisf5",
+            "locality": "2nd Stage",
+            "areaName": "Btm Layout",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Desserts",
+                "Chaat",
+                "Juices",
+                "Beverages",
+                "Snacks"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "176212",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 4100
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 4100
+            },
+            "parentId": "203067",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 26,
+                "lastMileTravel": 4.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "26 mins",
+                "lastMileTravelString": "4.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-10-18 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b749484c-1018-41cb-bd79-6777c9d65cc8"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/temperature-2nd-stage-btm-layout-bangalore-176212",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "454000",
+            "name": "Biryani Hotel",
+            "cloudinaryImageId": "fl1nptfbc7qc32jvxsmt",
+            "locality": "5th Block",
+            "areaName": "Koramangala",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Biryani",
+                "Indian",
+                "Arabian"
+            ],
+            "avgRating": 3.4,
+            "feeDetails": {
+                "restaurantId": "454000",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2900
+            },
+            "parentId": "264919",
+            "avgRatingString": "3.4",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 24,
+                "lastMileTravel": 2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "24 mins",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-10-11 06:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b749484c-1018-41cb-bd79-6777c9d65cc8"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/biryani-hotel-5th-block-koramangala-bangalore-454000",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "686288",
+            "name": "The Maggi Company",
+            "cloudinaryImageId": "af21fd92392ebd6271c6a1c2c2380119",
+            "locality": "Sunrise Villas",
+            "areaName": "Bellandur Sarjapur",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Snacks"
+            ],
+            "avgRating": 4.2,
+            "feeDetails": {
+                "restaurantId": "686288",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 5900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 5900
+            },
+            "parentId": "317741",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 7.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35 mins",
+                "lastMileTravelString": "7.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-10-11 16:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b749484c-1018-41cb-bd79-6777c9d65cc8"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-maggi-company-sunrise-villas-bellandur-sarjapur-bangalore-686288",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "44049",
+            "name": "Gorbandh Sweets & Snacks",
+            "cloudinaryImageId": "kj3mlwnrsaksavqqntv0",
+            "locality": "2nd Stage",
+            "areaName": "BTM Layout",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Sweets",
+                "North Indian",
+                "Chaat",
+                "Desserts"
+            ],
+            "avgRating": 4,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "44049",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 4100
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 4100
+            },
+            "parentId": "21537",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 4.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "4.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-10-11 21:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b749484c-1018-41cb-bd79-6777c9d65cc8"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/gorbandh-sweets-and-snacks-2nd-stage-btm-layout-bangalore-44049",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "574268",
+            "name": "The Meals Junction",
+            "cloudinaryImageId": "nobnx31741uiwnmvsvst",
+            "locality": "indiranagar",
+            "areaName": "Indiranagar",
+            "costForTwo": "₹5 for two",
+            "cuisines": [
+                "North Indian",
+                "Bengali",
+                "South Indian",
+                "Fast Food",
+                "Chinese",
+                "Biryani",
+                "Desserts",
+                "Kerala",
+                "Punjabi"
+            ],
+            "avgRating": 3.8,
+            "feeDetails": {
+                "restaurantId": "574268",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 4100
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 4100
+            },
+            "parentId": "211345",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 4.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "28 mins",
+                "lastMileTravelString": "4.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-10-18 00:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b749484c-1018-41cb-bd79-6777c9d65cc8"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-meals-junction-indiranagar-bangalore-574268",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "576839",
+            "name": "Om meals and paratha junction",
+            "cloudinaryImageId": "u4c6vysici1ztf62f7hd",
+            "locality": "HAL 2nd Stage",
+            "areaName": "Domlur",
+            "costForTwo": "₹5 for two",
+            "cuisines": [
+                "North Indian",
+                "Thalis",
+                "Chinese",
+                "South Indian",
+                "Beverages",
+                "Snacks",
+                "Biryani",
+                "Kerala",
+                "American"
+            ],
+            "avgRating": 3.9,
+            "feeDetails": {
+                "restaurantId": "576839",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 4100
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 4100
+            },
+            "parentId": "21651",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 4.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "27 mins",
+                "lastMileTravelString": "4.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-10-18 00:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO ₹40"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b749484c-1018-41cb-bd79-6777c9d65cc8"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/om-meals-and-paratha-junction-hal-2nd-stage-domlur-bangalore-576839",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "570178",
+            "name": "Om Sai Ram Food Junction",
+            "cloudinaryImageId": "fuqvwvihgfdmwtycyrqi",
+            "locality": "HAL 2nd Stage",
+            "areaName": "Indiranagar",
+            "costForTwo": "₹5 for two",
+            "cuisines": [
+                "North Indian",
+                "Bengali",
+                "South Indian",
+                "Fast Food",
+                "Chinese",
+                "Biryani",
+                "Desserts",
+                "Kerala",
+                "Punjabi",
+                "Snacks"
+            ],
+            "avgRating": 3.9,
+            "feeDetails": {
+                "restaurantId": "570178",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 4100
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 4100
+            },
+            "parentId": "151799",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 33,
+                "lastMileTravel": 4.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "33 mins",
+                "lastMileTravelString": "4.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-10-18 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b749484c-1018-41cb-bd79-6777c9d65cc8"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/om-sai-ram-food-junction-hal-2nd-stage-indiranagar-bangalore-570178",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "571337",
+            "name": "Sri Ram Bhojanalay",
+            "cloudinaryImageId": "tvl09sj6rhx2ltw9repf",
+            "locality": "HAL 2nd Stage",
+            "areaName": "Indiranagar",
+            "costForTwo": "₹5 for two",
+            "cuisines": [
+                "North Indian",
+                "Bengali",
+                "South Indian",
+                "Fast Food",
+                "Chinese",
+                "Biryani",
+                "Desserts",
+                "Kerala",
+                "Punjabi"
+            ],
+            "avgRating": 3.9,
+            "feeDetails": {
+                "restaurantId": "571337",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 4100
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 4100
+            },
+            "parentId": "194292",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 4.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "28 mins",
+                "lastMileTravelString": "4.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-10-18 00:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO ₹40"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b749484c-1018-41cb-bd79-6777c9d65cc8"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/sri-ram-bhojanalay-hal-2nd-stage-indiranagar-bangalore-571337",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+]

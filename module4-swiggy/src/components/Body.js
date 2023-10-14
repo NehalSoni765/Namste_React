@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import { SWIGGY_URL } from "../utils/constants";
@@ -27,18 +27,20 @@ const Body = () => {
   const fetchData = async () => {
     const data = await fetch(SWIGGY_URL);
     const json = await data.json();
-    const arrayOfCards = json.data.cards;
+    const arrayOfCards = json?.data?.cards || [];
     const restaurants_list = "restaurant_grid_listing";
-    arrayOfCards.forEach((cardObj) => {
-      if (cardObj.card.card?.id === restaurants_list) {
-        setListOfRestaurants(
-          cardObj.card.card.gridElements.infoWithStyle.restaurants
-        );
-        setFilteredRestaurant(
-          cardObj.card.card.gridElements.infoWithStyle.restaurants
-        );
-      }
-    });
+    if (arrayOfCards?.length > 0) {
+      arrayOfCards.forEach((cardObj) => {
+        if (cardObj.card.card?.id === restaurants_list) {
+          setListOfRestaurants(
+            cardObj.card.card.gridElements.infoWithStyle.restaurants
+          );
+          setFilteredRestaurant(
+            cardObj.card.card.gridElements.infoWithStyle.restaurants
+          );
+        }
+      });
+    }
   };
 
   const isOnlineStatus = useOnlineStatus();
@@ -53,15 +55,17 @@ const Body = () => {
   const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
   console.log("body render");
 
-
   return !listOfRestaurant.length ? (
     <Shimmer />
   ) : (
+    //test cases puproses
+    // return (
     <div className="body">
       <div className="filter flex">
         <div className="search m-4 p-4">
           <input
             type="text"
+            data-testid="searchInput"
             name="search"
             className="search-box  border border-gray-600 mr-4"
             value={searchText}
@@ -72,12 +76,14 @@ const Body = () => {
           <button
             className="px-3 py-1 bg-blue-400 rounded-md"
             type="submit"
+            aria-label="Search"
             onClick={() => {
               //filter restautrant cards and update the UI
-              const filteredRestaurant = listOfRestaurant.filter((restaurant) =>
-                restaurant.info.name
-                  .toLowerCase()
-                  .includes(searchText.toLowerCase())
+              const filteredRestaurant = listOfRestaurant?.filter(
+                (restaurant) =>
+                  restaurant.info.name
+                    .toLowerCase()
+                    .includes(searchText.toLowerCase())
               );
               setFilteredRestaurant(filteredRestaurant);
             }}
@@ -112,18 +118,18 @@ const Body = () => {
         </div>
       </div>
       <div className="res-container flex flex-wrap m-10">
-        {filteredRestaurant.length > 0 &&
-          filteredRestaurant.map((restaurant) => {
+        {filteredRestaurant?.length > 0 &&
+          filteredRestaurant?.map((restaurant) => {
             return (
               <Link
                 key={restaurant.info.id}
                 to={`restaurants/${restaurant.info.id}`}
               >
                 {!restaurant?.info?.promoted ? (
-                  <RestaurantCardPromoted resData={restaurant} />
+                  <RestaurantCardPromoted resData={restaurant.info} />
                 ) : (
                   <RestaurantCard
-                    resData={restaurant}
+                    resData={restaurant.info}
                     key={restaurant.info.id}
                   />
                 )}

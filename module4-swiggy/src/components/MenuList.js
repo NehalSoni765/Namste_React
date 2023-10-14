@@ -1,3 +1,4 @@
+import React from "react";
 import { useDispatch } from "react-redux";
 import { CDN_IMAGE_URL } from "../utils/constants";
 import { addItem } from "../redux/cartSlice";
@@ -20,6 +21,7 @@ const MenuList = ({ itemCards }) => {
           return (
             <div
               key={id}
+              data-testid="foodItems"
               className="border-b-2 border-gray-200 text-left p-4 flex justify-between"
             >
               <div className="pr-3 w-11/12">

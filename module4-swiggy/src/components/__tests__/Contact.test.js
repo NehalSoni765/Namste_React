@@ -4,6 +4,11 @@ import Contact from "../Contact";
 import "@testing-library/jest-dom";
 
 describe("Contact US Page Test Case", () => {
+  // beforeAll(() => console.log("Before All"));
+  // afterAll(() => console.log("After All"));
+  // beforeEach(() => console.log("Before Each"));
+  // afterEach(() => console.log("After Each"));
+
   it("Should load contact us component", () => {
     //render this component
     render(<Contact />);

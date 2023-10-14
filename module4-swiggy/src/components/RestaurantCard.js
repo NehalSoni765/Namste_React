@@ -1,3 +1,4 @@
+import React from "react";
 import { CDN_IMAGE_URL } from "../utils/constants";
 
 const RestaurantCard = ({ resData }) => {
@@ -8,9 +9,13 @@ const RestaurantCard = ({ resData }) => {
     avgRating,
     costForTwoString,
     cloudinaryImageId,
-  } = resData.info;
+  } = resData;
+
   return (
-    <div className="res-card m-3 p-3 bg-transparent w-60 min-h-[20rem] rounded-sm hover:shadow-md">
+    <div
+      data-testid="resCard"
+      className="res-card m-3 p-3 bg-transparent w-60 min-h-[20rem] rounded-sm hover:shadow-md"
+    >
       <img
         className="res-logo shadow-md rounded-md"
         alt="meghna food"

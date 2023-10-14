@@ -17,7 +17,9 @@ const RestaurantCategory = ({ data, showItems, setShowIndex, dummyData }) => {
         <span>{showItems ? "\u{1F53A}" : "\u{1F53B}"}</span>
       </div>
       {/* accordian body */}
-      {showItems && data?.itemCards && <MenuList itemCards={data?.itemCards} />}
+      {showItems && data?.itemCards && (
+        <MenuList itemCards={data?.itemCards} />
+      )}
       {/* {showItems && data?.itemCards && (
         <div>
           {data?.itemCards.length > 0 &&
