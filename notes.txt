@@ -245,3 +245,7 @@ module13 : Testing{
         }
     }
 }
+module14: netflixGPT {
+    - why we choose create-react-app : behind this scene it uses webpack is also bundler,same job like parcel. a lot of stackhold that's why developer use
+    - github link : "https://github.com/NehalSoni765/netflix-gpt"
+}
