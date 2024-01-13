@@ -8,6 +8,8 @@ module1
         2. DOM DOCUMENT OBJECT MODEL 
         why use two diff library bcz react have react 3d,eract dom,react native for different pupose separte it
     }
+    root.render (heading) : render job it takes object convert into tag and put into dom
+    react.createElement has tag,attribute,string/reactElement
     react is library which i work on smale portion on of page, rest page should be same
 }
 module2{
@@ -32,20 +34,24 @@ module2{
     }
     npx{
         npx parcel index.html(source code)
+        normal js doesn't have import export so we use type="module"
         parcel goes to index.html which build developmemt a build and host it on localhost
+        remove main line from package.json cuz conflicting index.html app.js in start point
         npx parcel build index.html
         configure this syntax into package.json file
     }
-    
 }
 module3{
     JSX : with jsx developer life going to easy to do cool things also knows JAVASCRIPT SYNTAX
     react and jsx different things
     jsx is convension of merge js+html
-    JSX is not HTML in JS but it XML-like HTML
+    JSX is not HTML in JS but it is XML-like or HTML-like syntax.
     our code transpiled before reaches into js engine
+    babel responsible to convert jsx to react element
+    wrap multiline code into () bracket
+    element/component : component has function with capital First 
     > functional component is simple js functional which return jsx element
-    >component composotion is nothing but a component having another component
+    > component composotion is nothing but a component having another component
 }
 module4{
     >passing props to component same as passing argument to function
@@ -55,6 +61,7 @@ module4{
 module5{
     >why react : it makes developer lifes easy to making less code for more web pages which is major job react ui 
     provides large production scalable performance ready ui,optimise UI
+    > export {default,name}
     > HOOK is normal JAVASCRIPT function
     >> wherever state variable update readct re render the component
     react{
@@ -76,20 +83,22 @@ module5{
 }
 module6{
     monolith/micro services architecture{
-        -backend,ui,auth,db,sms sending,email notification services
+        -backend,ui,auth,db,sms sending,email notification services which comes and form microservices
         -all services combine into app SEPRATION OF CONCERNS or SINGLE RESPONSIBILE PRINCIPLE
         -this services are written on there languages and used different port and mapped into 
     }
     fetch api {
         1. load page->api fetch response->render
-        2. load page->render->api fetch response->re-render (better approach)
+        2. load page->render(dummy content/shimmer)->api fetch response->re-render (better approach)
     }
     useEffect {
-        initial render => useEffect called after rendering component
+        load page => initial render => useEffect called after rendering component
     }
     cross origin => our browser block api from one origin to another origin (mismatch origin)
+    shimmer
     conditional rendering : It render based on conditional based
     whenever state variable updates react trigger reconciliation cycle (re-render the component) 
+    https://corsproxy.io/?swiggy_api for different user want to access your site
 }
 module7{
     useeffect{
@@ -98,8 +107,11 @@ module7{
         > If dependancy array have some varible => useEffect call every time dependancy updated
         >> react is single page applicationn because it not reload the site
         
-        - Client side Routing (you redirect anither page just coponent changes)
-        - Server side Routing (you made a call and about us page comes with data)
+        - Client side Routing (at initial render store component by triggering link just replacing the component/you redirect anither page just coponent changes)
+        - Server side Routing (you made a call and about us page comes with data to server)
+
+        dynamic routing : each card has menu
+        link overwrap to anchor
     }
 }
 module8{
@@ -109,7 +121,8 @@ module8{
             - it inherit from react component
             - it has render method which return jsx
         }
-        calling a functions means mounting component
+        > state variable can not directly update in class(this.setState) as well as function(setCount) 
+        calling a functions/loading = mounting component
         > loading a class bassed component means creating instance of class.
         lifecycle{
             > render means mount
@@ -143,6 +156,9 @@ module8{
                     - why they use array in useeffect because earlier class component have to check multiple conditions on same function of componentDidUpdate
                 }
             }
+            class : loading => con,render => dom manipulation => componentDidMount => re-render 
+            function : loading => render => componentDidMount => re-render
+            componentDidMount similar to useEffect
         }
     }
 }
@@ -156,9 +172,9 @@ module9{
     }
 }
 module10{
-    > sass vs css sass has power to write a css
-    >postcss means it convert css with javascript
-    >init is initiallize the component
+    > sass vs scss sass has power to write a css
+    > postcss means it convert css with javascript
+    > init is initiallize the component
 }
 module11{
     > Higher order component is component which takes the component and return the component
